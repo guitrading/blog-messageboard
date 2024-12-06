@@ -73,7 +73,7 @@
         document.getElementById('submitMessage').addEventListener('click', postMessage);
         document.getElementById('refreshMessages').addEventListener('click', getMessages);
 
-        const apiEndpoint = 'YOUR_API_GATEWAY_INVOKE_URL';
+        const apiEndpoint = 'https://uqijo5tpt3.execute-api.sa-east-1.amazonaws.com/dev';
 
         async function postMessage() {
             const messageContent = document.getElementById('messageContent').value;
